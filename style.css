@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    background: rgb(0, 0, 0);
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 105px;
+    /* margin-left: 60px; */
+}
+
+select::-ms-expand {
+    display: none;
+  }
+  select {
+    margin-top: 65px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    font: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+  }
+
+button {
+    padding: 6px 20px;
+    background-color: white;
+    font-size: 20px;
+}
+.add-user {
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+}
+
+
+.user-add {
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.user-add input {
+    margin-right: 50px;
+}
+
+
+
